@@ -24,8 +24,8 @@ useEventListener(document, ['mouseup', 'touchend'], () => {
 
   <div class="game-holder">
     <div class="header">
-      <h1><span>the</span>Aviator</h1>
-      <h2>fly it to the end</h2>
+      <h1><span>PAUSE</span>MASTER OF THERUG</h1>
+      <h2>RUG THEM TO THE END</h2>
       <div id="score" class="score">
         <div id="level" class="score__content">
           <div class="score__label">
@@ -80,6 +80,7 @@ useEventListener(document, ['mouseup', 'touchend'], () => {
     </div>
     <div id="instructions" class="message message--instructions">
       Grab the blue pills<span>avoid the red ones</span>
+      <span>PAUSE @2025</span>
     </div>
   </div>
 </template>
