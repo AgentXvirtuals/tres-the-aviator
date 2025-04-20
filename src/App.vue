@@ -18,9 +18,7 @@ useEventListener(document, ['mouseup', 'touchend'], () => {
 </script>
 
 <template>
-  <div style="position: fixed;z-index: 3;right:0;top:0;">
-    <github-corners style="position: fixed;z-index: 3;" repo="enpitsuLin/tres-the-aviator" fill="#68c3c0" blank />
-  </div>
+  
 
   <div class="game-holder">
     <div class="header">
