@@ -24,7 +24,7 @@ useEventListener(document, ['mouseup', 'touchend'], () => {
 
   <div class="game-holder">
     <div class="header">
-      <h1><span>PAUSE</span>MASTER OF THERUG</h1>
+      <h1><span></span>PAUSEMASTER OF THERUG</h1>
       <h2>RUG THEM TO THE END</h2>
       <div id="score" class="score">
         <div id="level" class="score__content">
