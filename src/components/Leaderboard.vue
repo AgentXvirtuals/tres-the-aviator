@@ -32,6 +32,7 @@ const players = [
   border-radius: 10px;
   color: white;
   min-width: 200px;
+  z-index: 1000;
 }
 
 .leaderboard h3 {
