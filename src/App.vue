@@ -3,6 +3,7 @@ import { TresCanvas } from '@tresjs/core'
 import { useEventListener } from '@vueuse/core'
 import { useHead } from '@vueuse/head'
 import Game from './components/Game.vue'
+import Leaderboard from './components/Leaderboard.vue'
 import { useGame } from './composables/useGame'
 
 useHead({
@@ -18,9 +19,8 @@ useEventListener(document, ['mouseup', 'touchend'], () => {
 </script>
 
 <template>
-  
-
   <div class="game-holder">
+    <Leaderboard />
     <div class="header">
       <h1><span></span>PAUSE MASTER OF THERUG</h1>
       <h2>RUG THEM TO THE END</h2>
